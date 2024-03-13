@@ -1,0 +1,245 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Nick's Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="{%static 'apple-touch-icon.png' %}">
+
+        <link rel="stylesheet" href="{%static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{%static 'css/bootstrap-theme.min.css' %}">
+        <link rel="stylesheet" href="{%static 'css/templatemo-style.css' %}">
+
+        <script src="{%static 'js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
+    </head>
+    <body>
+        <nav class="nav">
+          <div class="burger">
+            <div class="burger__patty"></div>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#1" class="nav__link c-blue"><img src="{%static 'img/home-icon.png' %}" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <a href="#2" class="nav__link c-yellow scrolly"><img src="{%static 'img/about-icon.png' %}" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <a href="#3" class="nav__link c-red"><img src="{%static 'img/projects-icon.png' %}" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <a href="#4" class="nav__link c-green"><img src="{%static 'img/contact-icon.png' %}" alt=""></a>
+            </li>
+          </ul>
+        </nav>
+
+        <section class="panel b-blue" id="1">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="home-content">
+                      <div class="home-heading">
+                        <h1>Welcome to my Portfolio</h1>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="home-box-content">
+                            <div class="left-text">
+                              <h4>Feel <em>Free</em> Get To Know Me</h4>
+                              <p><strong>"Crafting the Web, One Line at a Time"</strong> ,where every line of code contributes to the larger whole, shaping user experiences</p>
+                              <div class="primary-button">
+                               
+                              </div>
+                            </div>
+                            <div class="right-image">
+                              <img src="{%static 'img/icon.jpg' %}" style="border-radius: 50%;width: 100px; height: 100px;" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-yellow" id="2">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="about-content">
+                      <div class="heading">
+                        <h4>About Me</h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="about-box-content">
+                            <img src="{%static 'img/Smart Human brain.jpeg' %}" alt="">
+                          </div>
+                        </div>
+                        <div class="col-md-7 col-md-offset-5">
+                          <div class="about-box-text">
+                            <h4>How it all started</h4>
+                            <p>Hello my name is Nick,As a passionate Software Engineer with a speciality in web development and Python, I've honed my skills to deliver clean, efficient, and maintainable code.Whether it's collaborating on open-source projects or developing custom web applications, I bring a problem-solving mindset and a collaborative spirit to every team I join. <strong>Feel free to reach me out </strong> </p>
+                            <div class="primary-button">
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-red" id="3">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="projects-content">
+                      <div class="heading">
+                        <h4>What am i good at? </h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="owl-carousel owl-theme projects-container">
+                            <div>
+                              <div class="project-item">
+                                <a href="{%static 'img/project-item-01.jpg' %}" data-lightbox="image-1"><img src="{%static 'img/Logo do Python.jpeg' %}" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Python</h4>
+                                  <p>Perfection in Python </p>
+                                  <div class="primary-button">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="{%static 'img/project-item-02.jpg' %}" data-lightbox="image-1"><img src="{%static 'img/wp12922691-django-python-wallpapers.jpg' %}" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Django Framework</h4>
+                                  <p>Strong at Django Framework  </p>
+                                  <div class="primary-button">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="{%static 'img/project-item-03.jpg' %}" data-lightbox="image-1"><img src="{%static 'img/MySQL Logo PNG Vector (EPS) Free Download.jpeg' %}" alt=""></a>
+                                <div class="text-content">
+                                  <h4>MySql</h4>
+                                  <p>I used Mysql for my website Database </p>
+                                  <div class="primary-button">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="{%static 'img/project-item-04.jpg' %}" data-lightbox="image-1"><img src="{%static 'img/C programming Logo - MI PORTAL.jpeg' %}" alt=""></a>
+                                <div class="text-content">
+                                  <h4>C</h4>
+                                  <p>University gave me C languge for my beginer language </p>
+                                  <div class="primary-button">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="{%static 'img/project-item-05.jpg' %}" data-lightbox="image-1"><img src="{%static 'img/C++Programer Examiner_Programing _Sign In Boihasbullah 🗝️.jpeg' %}" alt=""></a>
+                                <div class="text-content">
+                                  <h4>C++</h4>
+                                  <p>Graduated from C to more of C++</p>
+                                  <div class="primary-button">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                            </div>
+                            <div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-green" id="4">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="contact-content">
+                      <div class="heading">
+                        <h4>Contact me </h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="contat-form">
+                            <form id="contact" action="" method="post">
+                              {% csrf_token %}
+                              <fieldset>
+                                <input name="name" type="text" class="form-control" id="name"  placeholder="Your Name" required="">
+                              </fieldset>
+                              <fieldset>
+                                <input name="email" type="email" class="form-control" id="email"  placeholder="Email" required="">
+                              </fieldset>
+                              <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message"  placeholder="Message" required=""></textarea>
+                              </fieldset>
+                              <fieldset>
+                                <button type="submit" id="form-submit"  class="btn">Send Message</button>
+                              </fieldset>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="footer">
+                      <p>Copyright &copy; 2024 Nicoleson 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="{%static 'js/vendor/bootstrap.min.js' %}"></script>
+\
+        <script src="{%static 'js/plugins.js' %}"></script>
+        <script src="{%static 'js/main.js' %}"></script>
+
+    </body>
+</html>
